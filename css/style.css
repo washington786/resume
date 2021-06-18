@@ -1,0 +1,508 @@
+*
+{
+   font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none; 
+}
+
+body{
+   display: flex;
+   background: black;
+   justify-content: center;
+
+}
+
+/* resume div */
+.resume{
+    display: flex;
+    float: left;
+    background: white;
+    margin: 12%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+ .resume :first-child{
+    width: 45%;
+    padding: 1%;
+}
+
+    /* div left side(content) */
+    .resume .resume-left{
+        background: white;
+        padding: 1%;
+    }
+
+    /* div right side */
+    .resume .resume-right{
+        width: 55%;
+        background: orangered;
+        padding: 1%;
+        margin: 1%;
+        color: white;
+    } 
+
+/* profile image customization*/
+.resume .resume-left .image-prof{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    justify-content: center;
+    border: white;
+    border-width: 2%;
+}
+
+.resume .resume-left .image-prof img{
+    border-radius: 80%;
+    border: 1px solid orangered;
+    border-color: orangered;
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+/* end of image customization */
+
+/* resume content about me section*/
+.resume .resume-left .resume-content .about-me{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.resume .resume-left .resume-content .about-me h2{
+        padding: 2%;
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+.resume .resume-left .resume-content{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.resume .resume-left .resume-content .about-me .border-bottom{
+    border-bottom: 2px solid orangered;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* end of about me */
+
+/* follow me section customization */
+.resume .resume-left .resume-content .social-media{
+
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.resume .resume-left .resume-content .social-media h2{
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.resume .resume-left .resume-content .social-media .fab{
+    margin: 1%;
+    padding: 1%;
+    width: 80%;
+}
+
+.resume .resume-left .resume-content .social-media .fab h4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume .resume-left .resume-content .social-media .border-bottom{
+    border-bottom: 2px solid orangered;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* end of social media section */
+
+/* reference section customization */
+.resume .resume-left .resume-content .references{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.resume .resume-left .resume-content .references h2{
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.resume .resume-left .resume-content .references .first-ref{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.resume .resume-left .resume-content .references .first-ref h4{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.resume .resume-left .resume-content .references .first-ref ul>li{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.resume .resume-left .resume-content .references .border-bottom{
+    border-bottom: 2px solid orangered;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* end of references section */
+
+/* languages section customization */
+.resume .resume-left .resume-content .languages{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume .resume-left .resume-content .languages h2{
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.resume .resume-left .resume-content .languages ul{
+    display: flex;
+    float: left;
+    list-style: circle;
+    list-style-type: circle;
+    width: 100%;
+    margin-left: 6% auto;
+    margin-right: 6% auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+
+}
+
+
+.resume .resume-left .resume-content .languages ul li{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* list-style: circle;
+    list-style-type: circle; */
+    padding: auto;
+
+}
+/* end of languages section */
+
+
+/* right side section */
+.resume .resume-right .details{
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin: 1%;
+    border-bottom: 2px solid white;
+}
+
+/* details sections customization*/
+
+    .resume .resume-right .details :first-child{
+        width: 55%;
+        padding: 1%;
+        background: transparent;
+        margin: 1%;
+    }
+
+    .resume .resume-right .details .contact-details{
+        width: 45%;
+        background: transparent;
+        padding: 1%;
+    }
+
+.resume .resume-right .details .names h2{
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.resume .resume-right .details .names h4{
+    font-size: 14px;
+    font-weight: 100;
+    padding-left: 2%;
+    margin-top: -1%;
+}
+
+/* contact details */
+.resume .resume-right .details .contact-details ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+
+.resume .resume-right .details .contact-details ul li .icon{
+    color: black;
+    background: white;
+    margin: 0;
+    font-size: 12px;
+}
+
+/* end of personal details */
+
+.resume .resume-right .Qualifications .institutions{
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin: 1%;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+.resume .resume-right h2{
+    color: white;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4%;
+    margin-top: 3%;
+}
+
+.resume .resume-right .Qualifications .institutions :first-child
+{
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+    background: transparent;
+}
+
+.resume .resume-right .Qualifications .institutions .sec-insti{
+    width: 50%;
+    background: transparent;
+    padding: 1%;
+    margin: 1%;
+
+}
+
+.resume .resume-right .Qualifications .institutions .first-insti{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    background: transparent;
+}
+
+.resume .resume-right .Qualifications .institutions .sec-insti{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    background: transparent;
+    /* border-left: 2dp solid white; */
+}
+
+/* styling education sections */
+.resume .resume-right .Qualifications .institutions .first-insti .inst-name1 h3{
+
+    width: 100%;
+    margin-top: -30%;
+    text-align: start;
+    justify-content: start;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.resume .resume-right .Qualifications .institutions .first-insti .inst-name1 h5{
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.resume .resume-right .Qualifications .institutions .first-insti .inst-qual1 h4{
+    width: 100%;
+    margin-top: -30%;
+    padding-top: 3%;
+    text-align: start;
+    justify-content: start;
+    font-size: 12px;
+    font-weight: 50;
+}
+
+
+.resume .resume-right .Qualifications .institutions .first-insti .inst-qual1 h6{
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+/* second qualification */
+.resume .resume-right .Qualifications .institutions .sec-insti .inst-name2 h3{
+    width: 100%;
+    margin-top: -25%;
+    text-align: start;
+    justify-content: start;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.resume .resume-right .Qualifications .institutions .sec-insti .inst-name2 h5{
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.resume .resume-right .Qualifications .institutions .sec-insti .inst-qual2 h4{
+    width: 100%;
+    margin-top: -20%;
+    padding-top: 3%;
+    text-align: start;
+    justify-content: start;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.resume .resume-right .Qualifications .institutions .sec-insti .inst-qual2 h6{
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+/* border between education qualifications */
+.resume .resume-right .Qualifications .institutions .hor_line{
+    /* margin-top: auto;
+    margin-bottom: auto;  */
+    padding-top: 2%; 
+    height: 70px;
+    border-left: 2px solid white;
+}
+
+/* skills section */
+.resume .resume-right .skills{
+    width: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 2%;
+    
+}
+
+.resume .resume-right .skills .skills-list{
+    width: 100%;
+    list-style-type: circle;
+    justify-content: start;
+
+}
+
+.resume .resume-right .skills .skills-list li{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
+    list-style-type: circle;
+    padding-right: 3%;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.resume .resume-right .border-bot{
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+} 
